@@ -31,7 +31,7 @@ internal class Menu
             {
                 Console.Clear();
                 Console.WriteLine("Saldo Insuficiente para Jugar ");
-                historialMenu.MostrarGanancias(apuestas.ObtenerSaldo());
+                historialMenu.MostrarGanancias();
                 break;
             }
             Console.Clear();
@@ -55,12 +55,12 @@ internal class Menu
                 case "0":
                     Console.Clear();
 
-                    historialMenu.MostrarGanancias(apuestas.ObtenerSaldo());
+                    historialMenu.MostrarGanancias();
                     continuar = false; break;
                 case "1":
                     Console.Clear();
 
-                    Console.WriteLine("Opcion Apostar del 0 al 36 Selecionada");
+                    Console.WriteLine("---Opcion Apostar del 0 al 36 Selecionada---");
                     
                     do
                     { 
@@ -95,8 +95,8 @@ internal class Menu
                 case "2":
                     Console.Clear();
 
-                    Console.WriteLine("Apostar Rojo o Blanco Selecionado");
-                    string color = _validaciones.PedirTexto("Rojo o Blanco (Ingrese solo texto) ").ToLower().Trim();
+                    Console.WriteLine("---Apostar Rojo o Blanco Selecionado---");
+                    string color = _validaciones.PedirTexto("Rojo o Negro (Ingrese solo texto) ").ToLower().Trim();
                     
                     do
                     { 
@@ -123,7 +123,7 @@ internal class Menu
                 case "3": 
                     Console.Clear();
 
-                    Console.WriteLine("Apostar Par o Impar");
+                    Console.WriteLine("---Apostar Par o Impar---");
                     string parImpar = _validaciones.PedirTexto("Ingresa par o impar (Ingrese solo Texto)").ToLower()
                         .Trim();
                     do

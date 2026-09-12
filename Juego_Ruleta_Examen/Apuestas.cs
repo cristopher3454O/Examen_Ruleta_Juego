@@ -100,7 +100,7 @@ internal class Apuestas
             Saldo += SaldoApostado;
             Console.WriteLine($"Felicidades Has ganado: {SaldoApostado}");
             historial.AgregarRegistro(
-                "Apuesta Negro o Rojo", 
+                "Apuesta Par o Impar", 
                 $"Par o Impar : {ParImpar}", 
                 "Ganada", 
                 SaldoApostado
@@ -110,7 +110,7 @@ internal class Apuestas
         {
             Console.WriteLine($"Has Perdido: {SaldoApostado}");
             historial.AgregarRegistro(
-                "Apuesta Negro o Rojo", 
+                "Apuesta Par o Impar", 
                 $"Par o Impar : {ParImpar}", 
                 "Perdida", 
                 -SaldoApostado

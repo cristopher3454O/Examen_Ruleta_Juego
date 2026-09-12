@@ -9,12 +9,17 @@ public class Historial
         public string Resultado { get; set; }
         public int Ganancia { get; set; }
 
-        public Registro(string tipoApuesta,string apuesta, string resultado, int ganancia)
+        public Registro(string tipoApuesta, string apuesta, string resultado, int ganancia)
         {
             TipoApuesta = tipoApuesta;
             Apuesta = apuesta;
             Resultado = resultado;
             Ganancia = ganancia;
+        }
+
+        public override string ToString()
+        {
+            return $"Tipo: {TipoApuesta} | Detalle: {Apuesta} | Resultado: {Resultado} | Ganancia: ${Ganancia}";
         }
 
     }
@@ -23,14 +28,15 @@ public class Historial
 
     public Historial()
     {
-        
+
     }
 
-    public void AgregarRegistro(string tipoApuesta,string apuesta, string resultado, int ganancia)
+    public void AgregarRegistro(string tipoApuesta, string apuesta, string resultado, int ganancia)
     {
         Registro nuevoRegistro = new Registro(tipoApuesta, apuesta, resultado, ganancia);
         listaHistorial.Add(nuevoRegistro);
     }
+
     public void MostrarHistorial()
     {
         Console.WriteLine("\n--- HISTORIAL DE APUESTAS ---");
@@ -42,11 +48,11 @@ public class Historial
 
         foreach (var reg in listaHistorial)
         {
-            Console.WriteLine($"Apuesta: {reg.Apuesta} | Resultado: {reg.Resultado} | Ganancia/Pérdida: {reg.Ganancia}");
+            Console.WriteLine(reg.ToString());
         }
     }
 
-    public void MostrarGanancias(int SaldoFinal)
+    public void MostrarGanancias()
     {
         int totalGanado = 0;
         int totalPerdido = 0;
@@ -71,6 +77,6 @@ public class Historial
         Console.WriteLine("\n--- RESUMEN FINAL ---");
         Console.WriteLine($"Total Ganado: +${totalGanado}");
         Console.WriteLine($"Total Perdido: -${totalPerdido}");
-        Console.WriteLine($"Balance Neto: ${SaldoFinal}");
+        Console.WriteLine($"Balance Neto: ${saldoNeto}");
     }
 }
