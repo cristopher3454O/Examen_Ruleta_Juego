@@ -10,14 +10,14 @@ internal class Menu
     private Validaciones _validaciones;
     private Historial historialMenu = new Historial();
 
-    public Menu(String titulo, string[] opciones, string nombre, int saldoIncial)
+    public Menu(String titulo, string[] opciones, string nombre, int saldoincial)
     {
         Titulo = titulo;
         Opciones = opciones;
         Nombre = nombre;
-        SaldoInicial = saldoIncial;
+        SaldoInicial = saldoincial;
         _validaciones = new Validaciones();
-        apuestas = new Apuestas(saldoIncial, historialMenu);
+        apuestas = new Apuestas(SaldoInicial, historialMenu);
 
     }
     
