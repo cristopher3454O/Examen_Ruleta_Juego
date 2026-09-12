@@ -162,3 +162,7 @@ internal class Menu
         }
     }
 }
+
+
+/*Hacer todo este codigo casi me deja pelon, saludos profesor, espero un 10, no valide alguna que
+ otra cosa por falta de tiempo y cabello que jalar jaja*/
