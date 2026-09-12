@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Juego_Ruleta_Examen")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+59be7e6024f742e37d9d4a3f04e55e5eaad6c7e3")]
 [assembly: System.Reflection.AssemblyProductAttribute("Juego_Ruleta_Examen")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Juego_Ruleta_Examen")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

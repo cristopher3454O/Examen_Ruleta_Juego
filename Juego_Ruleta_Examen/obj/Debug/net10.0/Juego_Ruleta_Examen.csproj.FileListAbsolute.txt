@@ -1,0 +1,15 @@
+/home/cristopher/RiderProjects/Juego_Ruleta_Examen/Juego_Ruleta_Examen/bin/Debug/net10.0/Juego_Ruleta_Examen
+/home/cristopher/RiderProjects/Juego_Ruleta_Examen/Juego_Ruleta_Examen/bin/Debug/net10.0/Juego_Ruleta_Examen.deps.json
+/home/cristopher/RiderProjects/Juego_Ruleta_Examen/Juego_Ruleta_Examen/bin/Debug/net10.0/Juego_Ruleta_Examen.runtimeconfig.json
+/home/cristopher/RiderProjects/Juego_Ruleta_Examen/Juego_Ruleta_Examen/bin/Debug/net10.0/Juego_Ruleta_Examen.dll
+/home/cristopher/RiderProjects/Juego_Ruleta_Examen/Juego_Ruleta_Examen/bin/Debug/net10.0/Juego_Ruleta_Examen.pdb
+/home/cristopher/RiderProjects/Juego_Ruleta_Examen/Juego_Ruleta_Examen/obj/Debug/net10.0/Juego_Ruleta_Examen.GeneratedMSBuildEditorConfig.editorconfig
+/home/cristopher/RiderProjects/Juego_Ruleta_Examen/Juego_Ruleta_Examen/obj/Debug/net10.0/Juego_Ruleta_Examen.AssemblyInfoInputs.cache
+/home/cristopher/RiderProjects/Juego_Ruleta_Examen/Juego_Ruleta_Examen/obj/Debug/net10.0/Juego_Ruleta_Examen.AssemblyInfo.cs
+/home/cristopher/RiderProjects/Juego_Ruleta_Examen/Juego_Ruleta_Examen/obj/Debug/net10.0/Juego_Ruleta_Examen.csproj.CoreCompileInputs.cache
+/home/cristopher/RiderProjects/Juego_Ruleta_Examen/Juego_Ruleta_Examen/obj/Debug/net10.0/Juego_Ruleta_Examen.sourcelink.json
+/home/cristopher/RiderProjects/Juego_Ruleta_Examen/Juego_Ruleta_Examen/obj/Debug/net10.0/Juego_Ruleta_Examen.dll
+/home/cristopher/RiderProjects/Juego_Ruleta_Examen/Juego_Ruleta_Examen/obj/Debug/net10.0/refint/Juego_Ruleta_Examen.dll
+/home/cristopher/RiderProjects/Juego_Ruleta_Examen/Juego_Ruleta_Examen/obj/Debug/net10.0/Juego_Ruleta_Examen.pdb
+/home/cristopher/RiderProjects/Juego_Ruleta_Examen/Juego_Ruleta_Examen/obj/Debug/net10.0/Juego_Ruleta_Examen.genruntimeconfig.cache
+/home/cristopher/RiderProjects/Juego_Ruleta_Examen/Juego_Ruleta_Examen/obj/Debug/net10.0/ref/Juego_Ruleta_Examen.dll
